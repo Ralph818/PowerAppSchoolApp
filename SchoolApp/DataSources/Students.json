@@ -1,0 +1,23 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_excel",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2024-06-10T23:43:53.8730000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "__PowerAppsId__": "Row id",
+      "Class": "Class",
+      "Email_x0020_Address": "Email Address",
+      "First_x0020_Name": "First Name",
+      "Last_x0020_Name": "Last Name"
+    },
+    "DatasetName": "b!i6Dvy2DIiUiLajvIHicvjkHU3QzysBtGuG4-RFOhhbYkT4dJVkQ5T7GwgSPHCku_.015BH6LAXPEWBI3HVRMZHZ6IUIU3NMJ2NO",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Students",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]

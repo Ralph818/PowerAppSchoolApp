@@ -1,0 +1,60 @@
+{
+  "00d1dde5-3f26-425d-af6f-27a96b09d4d1": {
+    "appActions": [],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "OneDrive for Business",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1689/1.0.1689.3722/onedriveforbusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_onedriveforbusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [],
+    "dependencies": {},
+    "dependents": [
+      "495e6d76-042d-4845-b666-5b41aa16c80e"
+    ],
+    "id": "00d1dde5-3f26-425d-af6f-27a96b09d4d1"
+  },
+  "495e6d76-042d-4845-b666-5b41aa16c80e": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1694/1.0.1694.3752/excel/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excel",
+      "parameterHints": {
+        "00d1dde5-3f26-425d-af6f-27a96b09d4d1": {
+          "value": "fileSource"
+        }
+      },
+      "parameterHintsV2": {
+        "fileSource": {
+          "value": "00d1dde5-3f26-425d-af6f-27a96b09d4d1"
+        }
+      }
+    },
+    "datasets": {
+      "b!i6Dvy2DIiUiLajvIHicvjkHU3QzysBtGuG4-RFOhhbYkT4dJVkQ5T7GwgSPHCku_.015BH6LAXPEWBI3HVRMZHZ6IUIU3NMJ2NO": {
+        "dataSources": {
+          "Students": {
+            "tableName": "Students"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Students"
+    ],
+    "dependencies": {
+      "fileSource": "00d1dde5-3f26-425d-af6f-27a96b09d4d1"
+    },
+    "dependents": [],
+    "id": "495e6d76-042d-4845-b666-5b41aa16c80e"
+  }
+}
